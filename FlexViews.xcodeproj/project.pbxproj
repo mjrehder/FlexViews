@@ -36,6 +36,8 @@
 		698B038C264FAF5500FEDB3B /* ImageShapeLayerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038A264FAF5500FEDB3B /* ImageShapeLayerFactory.swift */; };
 		698B038F264FAF9D00FEDB3B /* CGRectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038E264FAF9D00FEDB3B /* CGRectHelper.swift */; };
 		698B0390264FAF9D00FEDB3B /* CGRectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038E264FAF9D00FEDB3B /* CGRectHelper.swift */; };
+		698B039626501C3E00FEDB3B /* FlexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039526501C3E00FEDB3B /* FlexTextView.swift */; };
+		698B039726501C3E00FEDB3B /* FlexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039526501C3E00FEDB3B /* FlexTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,7 @@
 		698B0386264F041D00FEDB3B /* FlexImageShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexImageShapeView.swift; sourceTree = "<group>"; };
 		698B038A264FAF5500FEDB3B /* ImageShapeLayerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageShapeLayerFactory.swift; sourceTree = "<group>"; };
 		698B038E264FAF9D00FEDB3B /* CGRectHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectHelper.swift; sourceTree = "<group>"; };
+		698B039526501C3E00FEDB3B /* FlexTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTextView.swift; sourceTree = "<group>"; };
 		7015375C5EF78BB223AB3B76 /* Pods_FlexViews_FlexViewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexViews_FlexViewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		856D54FF5A93036146E6A83E /* Pods-FlexViews-FlexViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewsTests.release.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewsTests/Pods-FlexViews-FlexViewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		9672BA206D9A28EF36F95302 /* Pods-FlexViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews.debug.xcconfig"; path = "Target Support Files/Pods-FlexViews/Pods-FlexViews.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +151,7 @@
 				693AB9DF2642CF2500F8CF68 /* FlexSecondaryLabel.swift */,
 				693AB9E12642CF2500F8CF68 /* FlexSubPrimaryLabel.swift */,
 				693AB9DB2642CF2500F8CF68 /* FlexView.swift */,
+				698B039526501C3E00FEDB3B /* FlexTextView.swift */,
 				693AB9DE2642CF2500F8CF68 /* FlexViewSupplementaryView.swift */,
 				698B0386264F041D00FEDB3B /* FlexImageShapeView.swift */,
 				693AB9C42642B40A00F8CF68 /* FlexViews.h */,
@@ -375,6 +379,7 @@
 				698B02EA264BCF3A00FEDB3B /* FlexViewMenu.swift in Sources */,
 				693AB9E42642CF2500F8CF68 /* FlexPrimaryLabel.swift in Sources */,
 				693AB9E62642CF2500F8CF68 /* FlexHeaderView.swift in Sources */,
+				698B039626501C3E00FEDB3B /* FlexTextView.swift in Sources */,
 				698B038F264FAF9D00FEDB3B /* CGRectHelper.swift in Sources */,
 				693AB9E22642CF2500F8CF68 /* FlexView.swift in Sources */,
 				698B0387264F041D00FEDB3B /* FlexImageShapeView.swift in Sources */,
@@ -397,6 +402,7 @@
 				693AB9E32642CF2500F8CF68 /* FlexView.swift in Sources */,
 				698B02EE264BD14800FEDB3B /* FlexViewTopBar.swift in Sources */,
 				693AB9E92642CF2500F8CF68 /* FlexViewSupplementaryView.swift in Sources */,
+				698B039726501C3E00FEDB3B /* FlexTextView.swift in Sources */,
 				693AB9ED2642CF2500F8CF68 /* FlexFooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,7 +559,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViews;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -583,7 +589,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViews;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
