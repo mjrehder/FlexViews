@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexViews'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.license          = 'MIT'
   s.summary          = 'Flexible view components with style'
   s.homepage         = 'https://github.com/mjrehder/FlexViews.git'
@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.1'
 
   s.dependency 'FlexMenu'
+  s.dependency 'ImageExtensions'
 
   s.framework    = 'UIKit'
   s.source_files = 'FlexViews/**/*.swift'

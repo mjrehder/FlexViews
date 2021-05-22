@@ -28,6 +28,8 @@
  */
 
 import UIKit
+import FlexMenu
+import ImageExtensions
 
 public enum CommonIconViewMenuType {
     case add
