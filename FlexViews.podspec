@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexViews'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.license          = 'MIT'
   s.summary          = 'Flexible view components with style'
   s.homepage         = 'https://github.com/mjrehder/FlexViews.git'
