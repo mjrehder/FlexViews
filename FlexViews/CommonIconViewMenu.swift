@@ -183,7 +183,7 @@ public class CommonIconViewMenu: FlexViewMenu {
     }
     
     public func getImage(named imageName: String) -> UIImage? {
-        return UIImage(named: imageName, in: Bundle(for: CommonIconViewMenu.self), compatibleWith: nil) ?? UIImage(named: imageName)
+        return UIImage(named: imageName, in: Bundle(for: CommonIconViewMenu.self), compatibleWith: nil) ?? UIImage(named: imageName, in: Bundle(for: FlexMenu.self), compatibleWith: nil) ?? UIImage(named: imageName)
     }
 
 }
