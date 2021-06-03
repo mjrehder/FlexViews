@@ -8,70 +8,106 @@
 
 /* Begin PBXBuildFile section */
 		1A1F45DCD5C112D59DC08B7E /* Pods_FlexViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2405301E08E31E7FBEE551A2 /* Pods_FlexViews.framework */; };
-		469CE74ADEF95908B50757F6 /* Pods_FlexViews_FlexViewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7015375C5EF78BB223AB3B76 /* Pods_FlexViews_FlexViewsTests.framework */; };
-		693AB9CB2642B40A00F8CF68 /* FlexViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693AB9C12642B40A00F8CF68 /* FlexViews.framework */; };
-		693AB9D02642B40A00F8CF68 /* FlexViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9CF2642B40A00F8CF68 /* FlexViewsTests.swift */; };
+		3EA2AAD61365C2050EA37EC4 /* Pods_FlexViews_FlexViewDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2241C2FFC137FC1B84F404 /* Pods_FlexViews_FlexViewDemoApp.framework */; };
 		693AB9D22642B40A00F8CF68 /* FlexViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 693AB9C42642B40A00F8CF68 /* FlexViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		693AB9E22642CF2500F8CF68 /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DB2642CF2500F8CF68 /* FlexView.swift */; };
-		693AB9E32642CF2500F8CF68 /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DB2642CF2500F8CF68 /* FlexView.swift */; };
 		693AB9E42642CF2500F8CF68 /* FlexPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DC2642CF2500F8CF68 /* FlexPrimaryLabel.swift */; };
-		693AB9E52642CF2500F8CF68 /* FlexPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DC2642CF2500F8CF68 /* FlexPrimaryLabel.swift */; };
 		693AB9E62642CF2500F8CF68 /* FlexHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DD2642CF2500F8CF68 /* FlexHeaderView.swift */; };
-		693AB9E72642CF2500F8CF68 /* FlexHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DD2642CF2500F8CF68 /* FlexHeaderView.swift */; };
 		693AB9E82642CF2500F8CF68 /* FlexViewSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DE2642CF2500F8CF68 /* FlexViewSupplementaryView.swift */; };
-		693AB9E92642CF2500F8CF68 /* FlexViewSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DE2642CF2500F8CF68 /* FlexViewSupplementaryView.swift */; };
 		693AB9EA2642CF2500F8CF68 /* FlexSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DF2642CF2500F8CF68 /* FlexSecondaryLabel.swift */; };
-		693AB9EB2642CF2500F8CF68 /* FlexSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DF2642CF2500F8CF68 /* FlexSecondaryLabel.swift */; };
 		693AB9EC2642CF2500F8CF68 /* FlexFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E02642CF2500F8CF68 /* FlexFooterView.swift */; };
-		693AB9ED2642CF2500F8CF68 /* FlexFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E02642CF2500F8CF68 /* FlexFooterView.swift */; };
 		693AB9EE2642CF2500F8CF68 /* FlexSubPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E12642CF2500F8CF68 /* FlexSubPrimaryLabel.swift */; };
-		693AB9EF2642CF2500F8CF68 /* FlexSubPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E12642CF2500F8CF68 /* FlexSubPrimaryLabel.swift */; };
 		698B02EA264BCF3A00FEDB3B /* FlexViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B02E9264BCF3A00FEDB3B /* FlexViewMenu.swift */; };
-		698B02EB264BCF3A00FEDB3B /* FlexViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B02E9264BCF3A00FEDB3B /* FlexViewMenu.swift */; };
 		698B02ED264BD14800FEDB3B /* FlexViewTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B02EC264BD14800FEDB3B /* FlexViewTopBar.swift */; };
-		698B02EE264BD14800FEDB3B /* FlexViewTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B02EC264BD14800FEDB3B /* FlexViewTopBar.swift */; };
 		698B0387264F041D00FEDB3B /* FlexImageShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0386264F041D00FEDB3B /* FlexImageShapeView.swift */; };
-		698B0388264F041D00FEDB3B /* FlexImageShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0386264F041D00FEDB3B /* FlexImageShapeView.swift */; };
 		698B038B264FAF5500FEDB3B /* ImageShapeLayerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038A264FAF5500FEDB3B /* ImageShapeLayerFactory.swift */; };
-		698B038C264FAF5500FEDB3B /* ImageShapeLayerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038A264FAF5500FEDB3B /* ImageShapeLayerFactory.swift */; };
 		698B038F264FAF9D00FEDB3B /* CGRectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038E264FAF9D00FEDB3B /* CGRectHelper.swift */; };
-		698B0390264FAF9D00FEDB3B /* CGRectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038E264FAF9D00FEDB3B /* CGRectHelper.swift */; };
 		698B039626501C3E00FEDB3B /* FlexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039526501C3E00FEDB3B /* FlexTextView.swift */; };
-		698B039726501C3E00FEDB3B /* FlexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039526501C3E00FEDB3B /* FlexTextView.swift */; };
 		698B039B2651015300FEDB3B /* UITextView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03992651015300FEDB3B /* UITextView+Defaults.swift */; };
-		698B039C2651015300FEDB3B /* UITextView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03992651015300FEDB3B /* UITextView+Defaults.swift */; };
 		698B039D2651015300FEDB3B /* UITextView+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039A2651015300FEDB3B /* UITextView+Alignment.swift */; };
-		698B039E2651015300FEDB3B /* UITextView+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039A2651015300FEDB3B /* UITextView+Alignment.swift */; };
 		698B03D52656771000FEDB3B /* CommonIconViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03D42656771000FEDB3B /* CommonIconViewMenu.swift */; };
-		698B03D62656771100FEDB3B /* CommonIconViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03D42656771000FEDB3B /* CommonIconViewMenu.swift */; };
 		698B03D826567A1900FEDB3B /* StyleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03D726567A1900FEDB3B /* StyleEnvironment.swift */; };
-		698B03D926567A1900FEDB3B /* StyleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03D726567A1900FEDB3B /* StyleEnvironment.swift */; };
 		698B0402265D24DE00FEDB3B /* CommonFlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0401265D24DE00FEDB3B /* CommonFlexView.swift */; };
-		698B0403265D24DE00FEDB3B /* CommonFlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0401265D24DE00FEDB3B /* CommonFlexView.swift */; };
 		698B0405265D251800FEDB3B /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0404265D251800FEDB3B /* UIViewExtensions.swift */; };
-		698B0406265D251800FEDB3B /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0404265D251800FEDB3B /* UIViewExtensions.swift */; };
 		69F8DF27266238510053FD1F /* FlexViewSearchTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF26266238510053FD1F /* FlexViewSearchTopBar.swift */; };
-		69F8DF28266238510053FD1F /* FlexViewSearchTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF26266238510053FD1F /* FlexViewSearchTopBar.swift */; };
+		69F8DF5426676FD20053FD1F /* FlexViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF5326676FD20053FD1F /* FlexViewFactory.swift */; };
+		69F8DF57266771BA0053FD1F /* FlexViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF56266771BA0053FD1F /* FlexViewBuilder.swift */; };
+		69F8DFC2266796CE0053FD1F /* FlexViewFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF50266769E60053FD1F /* FlexViewFactoryTest.swift */; };
+		69F8DFC426679AEE0053FD1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F8DF65266777680053FD1F /* Main.storyboard */; };
+		69F8DFC526679AF60053FD1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F8DF6A266777690053FD1F /* LaunchScreen.storyboard */; };
+		69F8DFC626679AFF0053FD1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF5F266777680053FD1F /* AppDelegate.swift */; };
+		69F8DFC726679B020053FD1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF63266777680053FD1F /* ViewController.swift */; };
+		69F8DFC826679B180053FD1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8DF68266777690053FD1F /* Assets.xcassets */; };
+		69F8DFC926679BFC0053FD1F /* FlexViewSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DE2642CF2500F8CF68 /* FlexViewSupplementaryView.swift */; };
+		69F8DFCA26679BFC0053FD1F /* FlexViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF56266771BA0053FD1F /* FlexViewBuilder.swift */; };
+		69F8DFCB26679BFC0053FD1F /* CommonIconViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03D42656771000FEDB3B /* CommonIconViewMenu.swift */; };
+		69F8DFCC26679BFC0053FD1F /* CommonFlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0401265D24DE00FEDB3B /* CommonFlexView.swift */; };
+		69F8DFCD26679BFC0053FD1F /* FlexImageShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0386264F041D00FEDB3B /* FlexImageShapeView.swift */; };
+		69F8DFCE26679BFC0053FD1F /* FlexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039526501C3E00FEDB3B /* FlexTextView.swift */; };
+		69F8DFCF26679BFC0053FD1F /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DB2642CF2500F8CF68 /* FlexView.swift */; };
+		69F8DFD026679BFC0053FD1F /* FlexViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF5326676FD20053FD1F /* FlexViewFactory.swift */; };
+		69F8DFD126679BFC0053FD1F /* FlexViewSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DE2642CF2500F8CF68 /* FlexViewSupplementaryView.swift */; };
+		69F8DFD226679BFC0053FD1F /* FlexViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF56266771BA0053FD1F /* FlexViewBuilder.swift */; };
+		69F8DFD326679BFC0053FD1F /* CommonIconViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03D42656771000FEDB3B /* CommonIconViewMenu.swift */; };
+		69F8DFD426679BFC0053FD1F /* CommonFlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0401265D24DE00FEDB3B /* CommonFlexView.swift */; };
+		69F8DFD526679BFC0053FD1F /* FlexImageShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0386264F041D00FEDB3B /* FlexImageShapeView.swift */; };
+		69F8DFD626679BFC0053FD1F /* FlexTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039526501C3E00FEDB3B /* FlexTextView.swift */; };
+		69F8DFD726679BFC0053FD1F /* FlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DB2642CF2500F8CF68 /* FlexView.swift */; };
+		69F8DFD826679BFC0053FD1F /* FlexViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF5326676FD20053FD1F /* FlexViewFactory.swift */; };
+		69F8DFD926679C730053FD1F /* FlexViewSearchTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF26266238510053FD1F /* FlexViewSearchTopBar.swift */; };
+		69F8DFDA26679C730053FD1F /* FlexSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DF2642CF2500F8CF68 /* FlexSecondaryLabel.swift */; };
+		69F8DFDB26679C730053FD1F /* FlexViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B02E9264BCF3A00FEDB3B /* FlexViewMenu.swift */; };
+		69F8DFDC26679C730053FD1F /* FlexViewTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B02EC264BD14800FEDB3B /* FlexViewTopBar.swift */; };
+		69F8DFDD26679C730053FD1F /* StyleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03D726567A1900FEDB3B /* StyleEnvironment.swift */; };
+		69F8DFDE26679C730053FD1F /* ImageShapeLayerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038A264FAF5500FEDB3B /* ImageShapeLayerFactory.swift */; };
+		69F8DFDF26679C730053FD1F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0404265D251800FEDB3B /* UIViewExtensions.swift */; };
+		69F8DFE026679C730053FD1F /* FlexSubPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E12642CF2500F8CF68 /* FlexSubPrimaryLabel.swift */; };
+		69F8DFE126679C730053FD1F /* CGRectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038E264FAF9D00FEDB3B /* CGRectHelper.swift */; };
+		69F8DFE226679C730053FD1F /* UITextView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03992651015300FEDB3B /* UITextView+Defaults.swift */; };
+		69F8DFE326679C730053FD1F /* UITextView+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039A2651015300FEDB3B /* UITextView+Alignment.swift */; };
+		69F8DFE426679C730053FD1F /* FlexHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DD2642CF2500F8CF68 /* FlexHeaderView.swift */; };
+		69F8DFE526679C730053FD1F /* FlexPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DC2642CF2500F8CF68 /* FlexPrimaryLabel.swift */; };
+		69F8DFE626679C730053FD1F /* FlexFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E02642CF2500F8CF68 /* FlexFooterView.swift */; };
+		69F8DFE726679C730053FD1F /* FlexViewSearchTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DF26266238510053FD1F /* FlexViewSearchTopBar.swift */; };
+		69F8DFE826679C730053FD1F /* FlexSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DF2642CF2500F8CF68 /* FlexSecondaryLabel.swift */; };
+		69F8DFE926679C730053FD1F /* FlexViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B02E9264BCF3A00FEDB3B /* FlexViewMenu.swift */; };
+		69F8DFEA26679C740053FD1F /* FlexViewTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B02EC264BD14800FEDB3B /* FlexViewTopBar.swift */; };
+		69F8DFEB26679C740053FD1F /* StyleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03D726567A1900FEDB3B /* StyleEnvironment.swift */; };
+		69F8DFEC26679C740053FD1F /* ImageShapeLayerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038A264FAF5500FEDB3B /* ImageShapeLayerFactory.swift */; };
+		69F8DFED26679C740053FD1F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0404265D251800FEDB3B /* UIViewExtensions.swift */; };
+		69F8DFEE26679C740053FD1F /* FlexSubPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E12642CF2500F8CF68 /* FlexSubPrimaryLabel.swift */; };
+		69F8DFEF26679C740053FD1F /* CGRectHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B038E264FAF9D00FEDB3B /* CGRectHelper.swift */; };
+		69F8DFF026679C740053FD1F /* UITextView+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03992651015300FEDB3B /* UITextView+Defaults.swift */; };
+		69F8DFF126679C740053FD1F /* UITextView+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039A2651015300FEDB3B /* UITextView+Alignment.swift */; };
+		69F8DFF226679C740053FD1F /* FlexHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DD2642CF2500F8CF68 /* FlexHeaderView.swift */; };
+		69F8DFF326679C740053FD1F /* FlexPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DC2642CF2500F8CF68 /* FlexPrimaryLabel.swift */; };
+		69F8DFF426679C740053FD1F /* FlexFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E02642CF2500F8CF68 /* FlexFooterView.swift */; };
+		6B914755C6FBEA26370D1AA2 /* Pods_FlexViews_FlexViewDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED6058F5CAE4FE268F17100 /* Pods_FlexViews_FlexViewDemoAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		693AB9CC2642B40A00F8CF68 /* PBXContainerItemProxy */ = {
+		69F8DFA8266794A90053FD1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 693AB9B82642B40A00F8CF68 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 693AB9C02642B40A00F8CF68;
-			remoteInfo = FlexViews;
+			remoteGlobalIDString = 69F8DF91266794A70053FD1F;
+			remoteInfo = FlexViewDemoApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15A5C83380FF884E47BCBC82 /* Pods_FlexViews_FlexViewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexViews_FlexViewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8C1677279FEB75E723D544 /* Pods-FlexViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-FlexViewDemo/Pods-FlexViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1D2241C2FFC137FC1B84F404 /* Pods_FlexViews_FlexViewDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexViews_FlexViewDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2405301E08E31E7FBEE551A2 /* Pods_FlexViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E8614AE5B239F182776051 /* Pods_FlexViews_FlexViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexViews_FlexViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ED6058F5CAE4FE268F17100 /* Pods_FlexViews_FlexViewDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexViews_FlexViewDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407AD40A82CACC7A26570489 /* Pods-FlexViews-FlexViewDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewDemoApp/Pods-FlexViews-FlexViewDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4D2A830665ECE2544C55D984 /* Pods-FlexViews-FlexViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewDemo/Pods-FlexViews-FlexViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5C52A75AB953C3C21BC5ADDC /* Pods-FlexViews-FlexViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewDemo.release.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewDemo/Pods-FlexViews-FlexViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		693AB9C12642B40A00F8CF68 /* FlexViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		693AB9C42642B40A00F8CF68 /* FlexViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexViews.h; sourceTree = "<group>"; };
 		693AB9C52642B40A00F8CF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		693AB9CA2642B40A00F8CF68 /* FlexViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		693AB9CF2642B40A00F8CF68 /* FlexViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexViewsTests.swift; sourceTree = "<group>"; };
-		693AB9D12642B40A00F8CF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		693AB9DB2642CF2500F8CF68 /* FlexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexView.swift; sourceTree = "<group>"; };
 		693AB9DC2642CF2500F8CF68 /* FlexPrimaryLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexPrimaryLabel.swift; sourceTree = "<group>"; };
 		693AB9DD2642CF2500F8CF68 /* FlexHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexHeaderView.swift; sourceTree = "<group>"; };
@@ -92,11 +128,28 @@
 		698B0401265D24DE00FEDB3B /* CommonFlexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFlexView.swift; sourceTree = "<group>"; };
 		698B0404265D251800FEDB3B /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		69F8DF26266238510053FD1F /* FlexViewSearchTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexViewSearchTopBar.swift; sourceTree = "<group>"; };
-		7015375C5EF78BB223AB3B76 /* Pods_FlexViews_FlexViewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexViews_FlexViewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F8DF50266769E60053FD1F /* FlexViewFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexViewFactoryTest.swift; sourceTree = "<group>"; };
+		69F8DF5326676FD20053FD1F /* FlexViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexViewFactory.swift; sourceTree = "<group>"; };
+		69F8DF56266771BA0053FD1F /* FlexViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexViewBuilder.swift; sourceTree = "<group>"; };
+		69F8DF5F266777680053FD1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69F8DF63266777680053FD1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69F8DF66266777680053FD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69F8DF68266777690053FD1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69F8DF6B266777690053FD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69F8DF8B26677E250053FD1F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F8DF92266794A70053FD1F /* FlexViewDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexViewDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F8DFA7266794A90053FD1F /* FlexViewDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexViewDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F8DFAD266794A90053FD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7479F73D3B276BEED04C1EF6 /* Pods-FlexViews-FlexViewDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewDemoApp.release.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewDemoApp/Pods-FlexViews-FlexViewDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		7B7367ED8FDAC6153AF005AF /* Pods-FlexViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViewsTests.release.xcconfig"; path = "Target Support Files/Pods-FlexViewsTests/Pods-FlexViewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		856D54FF5A93036146E6A83E /* Pods-FlexViews-FlexViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewsTests.release.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewsTests/Pods-FlexViews-FlexViewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		9672BA206D9A28EF36F95302 /* Pods-FlexViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews.debug.xcconfig"; path = "Target Support Files/Pods-FlexViews/Pods-FlexViews.debug.xcconfig"; sourceTree = "<group>"; };
+		9BE10BAEF81E22ED3323C177 /* Pods-FlexViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViewDemo.release.xcconfig"; path = "Target Support Files/Pods-FlexViewDemo/Pods-FlexViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A2576F4325E1AC8F33F08CC7 /* Pods-FlexViews-FlexViewDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewDemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewDemoAppTests/Pods-FlexViews-FlexViewDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC6D610B47B157E5467AFAEE /* Pods-FlexViewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViewsTests.debug.xcconfig"; path = "Target Support Files/Pods-FlexViewsTests/Pods-FlexViewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5F9A36575BACF88E65A5E5D /* Pods-FlexViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews.release.xcconfig"; path = "Target Support Files/Pods-FlexViews/Pods-FlexViews.release.xcconfig"; sourceTree = "<group>"; };
 		FA057386F15D02F23C9226E5 /* Pods-FlexViews-FlexViewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewsTests.debug.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewsTests/Pods-FlexViews-FlexViewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA5E483834477A854CA50FCA /* Pods-FlexViews-FlexViewDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewDemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewDemoAppTests/Pods-FlexViews-FlexViewDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +161,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		693AB9C72642B40A00F8CF68 /* Frameworks */ = {
+		69F8DF8F266794A70053FD1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				693AB9CB2642B40A00F8CF68 /* FlexViews.framework in Frameworks */,
-				469CE74ADEF95908B50757F6 /* Pods_FlexViews_FlexViewsTests.framework in Frameworks */,
+				3EA2AAD61365C2050EA37EC4 /* Pods_FlexViews_FlexViewDemoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F8DFA4266794A90053FD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B914755C6FBEA26370D1AA2 /* Pods_FlexViews_FlexViewDemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +187,16 @@
 				E5F9A36575BACF88E65A5E5D /* Pods-FlexViews.release.xcconfig */,
 				FA057386F15D02F23C9226E5 /* Pods-FlexViews-FlexViewsTests.debug.xcconfig */,
 				856D54FF5A93036146E6A83E /* Pods-FlexViews-FlexViewsTests.release.xcconfig */,
+				1A8C1677279FEB75E723D544 /* Pods-FlexViewDemo.debug.xcconfig */,
+				9BE10BAEF81E22ED3323C177 /* Pods-FlexViewDemo.release.xcconfig */,
+				DC6D610B47B157E5467AFAEE /* Pods-FlexViewsTests.debug.xcconfig */,
+				7B7367ED8FDAC6153AF005AF /* Pods-FlexViewsTests.release.xcconfig */,
+				4D2A830665ECE2544C55D984 /* Pods-FlexViews-FlexViewDemo.debug.xcconfig */,
+				5C52A75AB953C3C21BC5ADDC /* Pods-FlexViews-FlexViewDemo.release.xcconfig */,
+				407AD40A82CACC7A26570489 /* Pods-FlexViews-FlexViewDemoApp.debug.xcconfig */,
+				7479F73D3B276BEED04C1EF6 /* Pods-FlexViews-FlexViewDemoApp.release.xcconfig */,
+				A2576F4325E1AC8F33F08CC7 /* Pods-FlexViews-FlexViewDemoAppTests.debug.xcconfig */,
+				FA5E483834477A854CA50FCA /* Pods-FlexViews-FlexViewDemoAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -135,7 +205,10 @@
 			isa = PBXGroup;
 			children = (
 				2405301E08E31E7FBEE551A2 /* Pods_FlexViews.framework */,
-				7015375C5EF78BB223AB3B76 /* Pods_FlexViews_FlexViewsTests.framework */,
+				33E8614AE5B239F182776051 /* Pods_FlexViews_FlexViewDemo.framework */,
+				15A5C83380FF884E47BCBC82 /* Pods_FlexViews_FlexViewsTests.framework */,
+				1D2241C2FFC137FC1B84F404 /* Pods_FlexViews_FlexViewDemoApp.framework */,
+				3ED6058F5CAE4FE268F17100 /* Pods_FlexViews_FlexViewDemoAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,7 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				693AB9C32642B40A00F8CF68 /* FlexViews */,
-				693AB9CE2642B40A00F8CF68 /* FlexViewsTests */,
+				69F8DF93266794A70053FD1F /* FlexViewDemoApp */,
+				69F8DFAA266794A90053FD1F /* FlexViewDemoAppTests */,
 				693AB9C22642B40A00F8CF68 /* Products */,
 				3CD994A2617A535C7CE7F0B8 /* Pods */,
 				685227207FE6E295A238983A /* Frameworks */,
@@ -155,7 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				693AB9C12642B40A00F8CF68 /* FlexViews.framework */,
-				693AB9CA2642B40A00F8CF68 /* FlexViewsTests.xctest */,
+				69F8DF92266794A70053FD1F /* FlexViewDemoApp.app */,
+				69F8DFA7266794A90053FD1F /* FlexViewDemoAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,32 +240,21 @@
 			children = (
 				698B03982651013800FEDB3B /* Extensions */,
 				698B038D264FAF9100FEDB3B /* Helper */,
+				69F8DF5226676F050053FD1F /* Sub Components */,
 				698B0389264FAF4700FEDB3B /* Styling */,
 				698B02E8264BCEA800FEDB3B /* View Menu */,
-				693AB9E02642CF2500F8CF68 /* FlexFooterView.swift */,
-				693AB9DD2642CF2500F8CF68 /* FlexHeaderView.swift */,
-				693AB9DC2642CF2500F8CF68 /* FlexPrimaryLabel.swift */,
-				693AB9DF2642CF2500F8CF68 /* FlexSecondaryLabel.swift */,
-				693AB9E12642CF2500F8CF68 /* FlexSubPrimaryLabel.swift */,
 				693AB9DB2642CF2500F8CF68 /* FlexView.swift */,
 				698B0401265D24DE00FEDB3B /* CommonFlexView.swift */,
 				698B039526501C3E00FEDB3B /* FlexTextView.swift */,
 				693AB9DE2642CF2500F8CF68 /* FlexViewSupplementaryView.swift */,
 				698B03D42656771000FEDB3B /* CommonIconViewMenu.swift */,
 				698B0386264F041D00FEDB3B /* FlexImageShapeView.swift */,
+				69F8DF5326676FD20053FD1F /* FlexViewFactory.swift */,
+				69F8DF56266771BA0053FD1F /* FlexViewBuilder.swift */,
 				693AB9C42642B40A00F8CF68 /* FlexViews.h */,
 				693AB9C52642B40A00F8CF68 /* Info.plist */,
 			);
 			path = FlexViews;
-			sourceTree = "<group>";
-		};
-		693AB9CE2642B40A00F8CF68 /* FlexViewsTests */ = {
-			isa = PBXGroup;
-			children = (
-				693AB9CF2642B40A00F8CF68 /* FlexViewsTests.swift */,
-				693AB9D12642B40A00F8CF68 /* Info.plist */,
-			);
-			path = FlexViewsTests;
 			sourceTree = "<group>";
 		};
 		698B02E8264BCEA800FEDB3B /* View Menu */ = {
@@ -230,6 +294,40 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		69F8DF5226676F050053FD1F /* Sub Components */ = {
+			isa = PBXGroup;
+			children = (
+				693AB9DC2642CF2500F8CF68 /* FlexPrimaryLabel.swift */,
+				693AB9DD2642CF2500F8CF68 /* FlexHeaderView.swift */,
+				693AB9E02642CF2500F8CF68 /* FlexFooterView.swift */,
+				693AB9DF2642CF2500F8CF68 /* FlexSecondaryLabel.swift */,
+				693AB9E12642CF2500F8CF68 /* FlexSubPrimaryLabel.swift */,
+			);
+			path = "Sub Components";
+			sourceTree = "<group>";
+		};
+		69F8DF93266794A70053FD1F /* FlexViewDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				69F8DF5F266777680053FD1F /* AppDelegate.swift */,
+				69F8DF63266777680053FD1F /* ViewController.swift */,
+				69F8DF65266777680053FD1F /* Main.storyboard */,
+				69F8DF68266777690053FD1F /* Assets.xcassets */,
+				69F8DF6A266777690053FD1F /* LaunchScreen.storyboard */,
+				69F8DF8B26677E250053FD1F /* Info.plist */,
+			);
+			path = FlexViewDemoApp;
+			sourceTree = "<group>";
+		};
+		69F8DFAA266794A90053FD1F /* FlexViewDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				69F8DF50266769E60053FD1F /* FlexViewFactoryTest.swift */,
+				69F8DFAD266794A90053FD1F /* Info.plist */,
+			);
+			path = FlexViewDemoAppTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -263,24 +361,43 @@
 			productReference = 693AB9C12642B40A00F8CF68 /* FlexViews.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		693AB9C92642B40A00F8CF68 /* FlexViewsTests */ = {
+		69F8DF91266794A70053FD1F /* FlexViewDemoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 693AB9D82642B40A00F8CF68 /* Build configuration list for PBXNativeTarget "FlexViewsTests" */;
+			buildConfigurationList = 69F8DFB9266794A90053FD1F /* Build configuration list for PBXNativeTarget "FlexViewDemoApp" */;
 			buildPhases = (
-				6CE0786797D01AD4F9C1E36C /* [CP] Check Pods Manifest.lock */,
-				693AB9C62642B40A00F8CF68 /* Sources */,
-				693AB9C72642B40A00F8CF68 /* Frameworks */,
-				693AB9C82642B40A00F8CF68 /* Resources */,
-				0AD94C1CC1EDFA0D9149803F /* [CP] Embed Pods Frameworks */,
+				51BD718CEA87DEDFF6166E10 /* [CP] Check Pods Manifest.lock */,
+				69F8DF8E266794A70053FD1F /* Sources */,
+				69F8DF8F266794A70053FD1F /* Frameworks */,
+				69F8DF90266794A70053FD1F /* Resources */,
+				56CE71DA342EC2C6FEE3CD11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				693AB9CD2642B40A00F8CF68 /* PBXTargetDependency */,
 			);
-			name = FlexViewsTests;
-			productName = FlexViewsTests;
-			productReference = 693AB9CA2642B40A00F8CF68 /* FlexViewsTests.xctest */;
+			name = FlexViewDemoApp;
+			productName = FlexViewDemoApp;
+			productReference = 69F8DF92266794A70053FD1F /* FlexViewDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69F8DFA6266794A90053FD1F /* FlexViewDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F8DFBC266794A90053FD1F /* Build configuration list for PBXNativeTarget "FlexViewDemoAppTests" */;
+			buildPhases = (
+				668449D2454E420A700BB8A6 /* [CP] Check Pods Manifest.lock */,
+				69F8DFA3266794A90053FD1F /* Sources */,
+				69F8DFA4266794A90053FD1F /* Frameworks */,
+				69F8DFA5266794A90053FD1F /* Resources */,
+				48E29768BDAD59BB25F311A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F8DFA9266794A90053FD1F /* PBXTargetDependency */,
+			);
+			name = FlexViewDemoAppTests;
+			productName = FlexViewDemoAppTests;
+			productReference = 69F8DFA7266794A90053FD1F /* FlexViewDemoAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -296,8 +413,12 @@
 						CreatedOnToolsVersion = 12.5;
 						LastSwiftMigration = 1250;
 					};
-					693AB9C92642B40A00F8CF68 = {
+					69F8DF91266794A70053FD1F = {
 						CreatedOnToolsVersion = 12.5;
+					};
+					69F8DFA6266794A90053FD1F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 69F8DF91266794A70053FD1F;
 					};
 				};
 			};
@@ -315,7 +436,8 @@
 			projectRoot = "";
 			targets = (
 				693AB9C02642B40A00F8CF68 /* FlexViews */,
-				693AB9C92642B40A00F8CF68 /* FlexViewsTests */,
+				69F8DF91266794A70053FD1F /* FlexViewDemoApp */,
+				69F8DFA6266794A90053FD1F /* FlexViewDemoAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,7 +450,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		693AB9C82642B40A00F8CF68 /* Resources */ = {
+		69F8DF90266794A70053FD1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F8DFC426679AEE0053FD1F /* Main.storyboard in Resources */,
+				69F8DFC826679B180053FD1F /* Assets.xcassets in Resources */,
+				69F8DFC526679AF60053FD1F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F8DFA5266794A90053FD1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,24 +470,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0AD94C1CC1EDFA0D9149803F /* [CP] Embed Pods Frameworks */ = {
+		48E29768BDAD59BB25F311A2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewsTests/Pods-FlexViews-FlexViewsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewDemoAppTests/Pods-FlexViews-FlexViewDemoAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewsTests/Pods-FlexViews-FlexViewsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewDemoAppTests/Pods-FlexViews-FlexViewDemoAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewsTests/Pods-FlexViews-FlexViewsTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewDemoAppTests/Pods-FlexViews-FlexViewDemoAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6CE0786797D01AD4F9C1E36C /* [CP] Check Pods Manifest.lock */ = {
+		51BD718CEA87DEDFF6166E10 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,7 +502,46 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FlexViews-FlexViewsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FlexViews-FlexViewDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56CE71DA342EC2C6FEE3CD11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewDemoApp/Pods-FlexViews-FlexViewDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewDemoApp/Pods-FlexViews-FlexViewDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexViews-FlexViewDemoApp/Pods-FlexViews-FlexViewDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668449D2454E420A700BB8A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexViews-FlexViewDemoAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -407,11 +578,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				693AB9EE2642CF2500F8CF68 /* FlexSubPrimaryLabel.swift in Sources */,
+				69F8DF57266771BA0053FD1F /* FlexViewBuilder.swift in Sources */,
 				693AB9EA2642CF2500F8CF68 /* FlexSecondaryLabel.swift in Sources */,
 				698B038B264FAF5500FEDB3B /* ImageShapeLayerFactory.swift in Sources */,
 				698B02ED264BD14800FEDB3B /* FlexViewTopBar.swift in Sources */,
 				698B039D2651015300FEDB3B /* UITextView+Alignment.swift in Sources */,
 				698B03D52656771000FEDB3B /* CommonIconViewMenu.swift in Sources */,
+				69F8DF5426676FD20053FD1F /* FlexViewFactory.swift in Sources */,
 				693AB9E82642CF2500F8CF68 /* FlexViewSupplementaryView.swift in Sources */,
 				693AB9EC2642CF2500F8CF68 /* FlexFooterView.swift in Sources */,
 				698B02EA264BCF3A00FEDB3B /* FlexViewMenu.swift in Sources */,
@@ -429,43 +602,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		693AB9C62642B40A00F8CF68 /* Sources */ = {
+		69F8DF8E266794A70053FD1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				698B03D62656771100FEDB3B /* CommonIconViewMenu.swift in Sources */,
-				698B03D926567A1900FEDB3B /* StyleEnvironment.swift in Sources */,
-				693AB9EB2642CF2500F8CF68 /* FlexSecondaryLabel.swift in Sources */,
-				693AB9EF2642CF2500F8CF68 /* FlexSubPrimaryLabel.swift in Sources */,
-				69F8DF28266238510053FD1F /* FlexViewSearchTopBar.swift in Sources */,
-				698B02EB264BCF3A00FEDB3B /* FlexViewMenu.swift in Sources */,
-				698B039C2651015300FEDB3B /* UITextView+Defaults.swift in Sources */,
-				698B0406265D251800FEDB3B /* UIViewExtensions.swift in Sources */,
-				693AB9E52642CF2500F8CF68 /* FlexPrimaryLabel.swift in Sources */,
-				698B038C264FAF5500FEDB3B /* ImageShapeLayerFactory.swift in Sources */,
-				698B0390264FAF9D00FEDB3B /* CGRectHelper.swift in Sources */,
-				693AB9D02642B40A00F8CF68 /* FlexViewsTests.swift in Sources */,
-				693AB9E72642CF2500F8CF68 /* FlexHeaderView.swift in Sources */,
-				698B0403265D24DE00FEDB3B /* CommonFlexView.swift in Sources */,
-				698B0388264F041D00FEDB3B /* FlexImageShapeView.swift in Sources */,
-				693AB9E32642CF2500F8CF68 /* FlexView.swift in Sources */,
-				698B02EE264BD14800FEDB3B /* FlexViewTopBar.swift in Sources */,
-				693AB9E92642CF2500F8CF68 /* FlexViewSupplementaryView.swift in Sources */,
-				698B039E2651015300FEDB3B /* UITextView+Alignment.swift in Sources */,
-				698B039726501C3E00FEDB3B /* FlexTextView.swift in Sources */,
-				693AB9ED2642CF2500F8CF68 /* FlexFooterView.swift in Sources */,
+				69F8DFDE26679C730053FD1F /* ImageShapeLayerFactory.swift in Sources */,
+				69F8DFE126679C730053FD1F /* CGRectHelper.swift in Sources */,
+				69F8DFE526679C730053FD1F /* FlexPrimaryLabel.swift in Sources */,
+				69F8DFDB26679C730053FD1F /* FlexViewMenu.swift in Sources */,
+				69F8DFC726679B020053FD1F /* ViewController.swift in Sources */,
+				69F8DFCA26679BFC0053FD1F /* FlexViewBuilder.swift in Sources */,
+				69F8DFD026679BFC0053FD1F /* FlexViewFactory.swift in Sources */,
+				69F8DFCC26679BFC0053FD1F /* CommonFlexView.swift in Sources */,
+				69F8DFE626679C730053FD1F /* FlexFooterView.swift in Sources */,
+				69F8DFE326679C730053FD1F /* UITextView+Alignment.swift in Sources */,
+				69F8DFE426679C730053FD1F /* FlexHeaderView.swift in Sources */,
+				69F8DFDC26679C730053FD1F /* FlexViewTopBar.swift in Sources */,
+				69F8DFCB26679BFC0053FD1F /* CommonIconViewMenu.swift in Sources */,
+				69F8DFDD26679C730053FD1F /* StyleEnvironment.swift in Sources */,
+				69F8DFE026679C730053FD1F /* FlexSubPrimaryLabel.swift in Sources */,
+				69F8DFD926679C730053FD1F /* FlexViewSearchTopBar.swift in Sources */,
+				69F8DFDA26679C730053FD1F /* FlexSecondaryLabel.swift in Sources */,
+				69F8DFE226679C730053FD1F /* UITextView+Defaults.swift in Sources */,
+				69F8DFCE26679BFC0053FD1F /* FlexTextView.swift in Sources */,
+				69F8DFC626679AFF0053FD1F /* AppDelegate.swift in Sources */,
+				69F8DFCD26679BFC0053FD1F /* FlexImageShapeView.swift in Sources */,
+				69F8DFDF26679C730053FD1F /* UIViewExtensions.swift in Sources */,
+				69F8DFCF26679BFC0053FD1F /* FlexView.swift in Sources */,
+				69F8DFC926679BFC0053FD1F /* FlexViewSupplementaryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F8DFA3266794A90053FD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F8DFD426679BFC0053FD1F /* CommonFlexView.swift in Sources */,
+				69F8DFEB26679C740053FD1F /* StyleEnvironment.swift in Sources */,
+				69F8DFD126679BFC0053FD1F /* FlexViewSupplementaryView.swift in Sources */,
+				69F8DFF426679C740053FD1F /* FlexFooterView.swift in Sources */,
+				69F8DFEE26679C740053FD1F /* FlexSubPrimaryLabel.swift in Sources */,
+				69F8DFD326679BFC0053FD1F /* CommonIconViewMenu.swift in Sources */,
+				69F8DFEC26679C740053FD1F /* ImageShapeLayerFactory.swift in Sources */,
+				69F8DFF326679C740053FD1F /* FlexPrimaryLabel.swift in Sources */,
+				69F8DFD726679BFC0053FD1F /* FlexView.swift in Sources */,
+				69F8DFD226679BFC0053FD1F /* FlexViewBuilder.swift in Sources */,
+				69F8DFC2266796CE0053FD1F /* FlexViewFactoryTest.swift in Sources */,
+				69F8DFF126679C740053FD1F /* UITextView+Alignment.swift in Sources */,
+				69F8DFF226679C740053FD1F /* FlexHeaderView.swift in Sources */,
+				69F8DFEF26679C740053FD1F /* CGRectHelper.swift in Sources */,
+				69F8DFD826679BFC0053FD1F /* FlexViewFactory.swift in Sources */,
+				69F8DFD626679BFC0053FD1F /* FlexTextView.swift in Sources */,
+				69F8DFED26679C740053FD1F /* UIViewExtensions.swift in Sources */,
+				69F8DFEA26679C740053FD1F /* FlexViewTopBar.swift in Sources */,
+				69F8DFE926679C730053FD1F /* FlexViewMenu.swift in Sources */,
+				69F8DFE826679C730053FD1F /* FlexSecondaryLabel.swift in Sources */,
+				69F8DFF026679C740053FD1F /* UITextView+Defaults.swift in Sources */,
+				69F8DFD526679BFC0053FD1F /* FlexImageShapeView.swift in Sources */,
+				69F8DFE726679C730053FD1F /* FlexViewSearchTopBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		693AB9CD2642B40A00F8CF68 /* PBXTargetDependency */ = {
+		69F8DFA9266794A90053FD1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 693AB9C02642B40A00F8CF68 /* FlexViews */;
-			targetProxy = 693AB9CC2642B40A00F8CF68 /* PBXContainerItemProxy */;
+			target = 69F8DF91266794A70053FD1F /* FlexViewDemoApp */;
+			targetProxy = 69F8DFA8266794A90053FD1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69F8DF65266777680053FD1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F8DF66266777680053FD1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69F8DF6A266777690053FD1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F8DF6B266777690053FD1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		693AB9D32642B40A00F8CF68 /* Debug */ = {
@@ -649,43 +874,91 @@
 			};
 			name = Release;
 		};
-		693AB9D92642B40A00F8CF68 /* Debug */ = {
+		69F8DFBA266794A90053FD1F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA057386F15D02F23C9226E5 /* Pods-FlexViews-FlexViewsTests.debug.xcconfig */;
+			baseConfigurationReference = 407AD40A82CACC7A26570489 /* Pods-FlexViews-FlexViewDemoApp.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
-				INFOPLIST_FILE = FlexViewsTests/Info.plist;
+				INFOPLIST_FILE = FlexViewDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViewsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViewDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		693AB9DA2642B40A00F8CF68 /* Release */ = {
+		69F8DFBB266794A90053FD1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856D54FF5A93036146E6A83E /* Pods-FlexViews-FlexViewsTests.release.xcconfig */;
+			baseConfigurationReference = 7479F73D3B276BEED04C1EF6 /* Pods-FlexViews-FlexViewDemoApp.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
-				INFOPLIST_FILE = FlexViewsTests/Info.plist;
+				INFOPLIST_FILE = FlexViewDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViewDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69F8DFBD266794A90053FD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2576F4325E1AC8F33F08CC7 /* Pods-FlexViews-FlexViewDemoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7Y9TF9C7U;
+				INFOPLIST_FILE = FlexViewDemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViewsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViewDemoAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexViewDemoApp.app/FlexViewDemoApp";
+			};
+			name = Debug;
+		};
+		69F8DFBE266794A90053FD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5E483834477A854CA50FCA /* Pods-FlexViews-FlexViewDemoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7Y9TF9C7U;
+				INFOPLIST_FILE = FlexViewDemoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViewDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexViewDemoApp.app/FlexViewDemoApp";
 			};
 			name = Release;
 		};
@@ -710,11 +983,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		693AB9D82642B40A00F8CF68 /* Build configuration list for PBXNativeTarget "FlexViewsTests" */ = {
+		69F8DFB9266794A90053FD1F /* Build configuration list for PBXNativeTarget "FlexViewDemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				693AB9D92642B40A00F8CF68 /* Debug */,
-				693AB9DA2642B40A00F8CF68 /* Release */,
+				69F8DFBA266794A90053FD1F /* Debug */,
+				69F8DFBB266794A90053FD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F8DFBC266794A90053FD1F /* Build configuration list for PBXNativeTarget "FlexViewDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F8DFBD266794A90053FD1F /* Debug */,
+				69F8DFBE266794A90053FD1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
