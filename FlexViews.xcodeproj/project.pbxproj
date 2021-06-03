@@ -82,6 +82,12 @@
 		69F8DFF226679C740053FD1F /* FlexHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DD2642CF2500F8CF68 /* FlexHeaderView.swift */; };
 		69F8DFF326679C740053FD1F /* FlexPrimaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9DC2642CF2500F8CF68 /* FlexPrimaryLabel.swift */; };
 		69F8DFF426679C740053FD1F /* FlexFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693AB9E02642CF2500F8CF68 /* FlexFooterView.swift */; };
+		69F8DFF62668C4080053FD1F /* FlexViewHeaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DFF52668C4080053FD1F /* FlexViewHeaderBuilder.swift */; };
+		69F8DFF72668C4080053FD1F /* FlexViewHeaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DFF52668C4080053FD1F /* FlexViewHeaderBuilder.swift */; };
+		69F8DFF82668C4080053FD1F /* FlexViewHeaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DFF52668C4080053FD1F /* FlexViewHeaderBuilder.swift */; };
+		69F8DFFA2668CE4A0053FD1F /* FlexViewFooterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DFF92668CE4A0053FD1F /* FlexViewFooterBuilder.swift */; };
+		69F8DFFB2668CE4A0053FD1F /* FlexViewFooterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DFF92668CE4A0053FD1F /* FlexViewFooterBuilder.swift */; };
+		69F8DFFC2668CE4A0053FD1F /* FlexViewFooterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8DFF92668CE4A0053FD1F /* FlexViewFooterBuilder.swift */; };
 		6B914755C6FBEA26370D1AA2 /* Pods_FlexViews_FlexViewDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED6058F5CAE4FE268F17100 /* Pods_FlexViews_FlexViewDemoAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -140,6 +146,8 @@
 		69F8DF92266794A70053FD1F /* FlexViewDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexViewDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F8DFA7266794A90053FD1F /* FlexViewDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexViewDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F8DFAD266794A90053FD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F8DFF52668C4080053FD1F /* FlexViewHeaderBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexViewHeaderBuilder.swift; sourceTree = "<group>"; };
+		69F8DFF92668CE4A0053FD1F /* FlexViewFooterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexViewFooterBuilder.swift; sourceTree = "<group>"; };
 		7479F73D3B276BEED04C1EF6 /* Pods-FlexViews-FlexViewDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewDemoApp.release.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewDemoApp/Pods-FlexViews-FlexViewDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		7B7367ED8FDAC6153AF005AF /* Pods-FlexViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViewsTests.release.xcconfig"; path = "Target Support Files/Pods-FlexViewsTests/Pods-FlexViewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		856D54FF5A93036146E6A83E /* Pods-FlexViews-FlexViewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexViews-FlexViewsTests.release.xcconfig"; path = "Target Support Files/Pods-FlexViews-FlexViewsTests/Pods-FlexViews-FlexViewsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -238,6 +246,7 @@
 		693AB9C32642B40A00F8CF68 /* FlexViews */ = {
 			isa = PBXGroup;
 			children = (
+				69F8DFFD2668D00C0053FD1F /* Factories */,
 				698B03982651013800FEDB3B /* Extensions */,
 				698B038D264FAF9100FEDB3B /* Helper */,
 				69F8DF5226676F050053FD1F /* Sub Components */,
@@ -249,8 +258,6 @@
 				693AB9DE2642CF2500F8CF68 /* FlexViewSupplementaryView.swift */,
 				698B03D42656771000FEDB3B /* CommonIconViewMenu.swift */,
 				698B0386264F041D00FEDB3B /* FlexImageShapeView.swift */,
-				69F8DF5326676FD20053FD1F /* FlexViewFactory.swift */,
-				69F8DF56266771BA0053FD1F /* FlexViewBuilder.swift */,
 				693AB9C42642B40A00F8CF68 /* FlexViews.h */,
 				693AB9C52642B40A00F8CF68 /* Info.plist */,
 			);
@@ -326,6 +333,17 @@
 				69F8DFAD266794A90053FD1F /* Info.plist */,
 			);
 			path = FlexViewDemoAppTests;
+			sourceTree = "<group>";
+		};
+		69F8DFFD2668D00C0053FD1F /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				69F8DF5326676FD20053FD1F /* FlexViewFactory.swift */,
+				69F8DF56266771BA0053FD1F /* FlexViewBuilder.swift */,
+				69F8DFF52668C4080053FD1F /* FlexViewHeaderBuilder.swift */,
+				69F8DFF92668CE4A0053FD1F /* FlexViewFooterBuilder.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -591,10 +609,12 @@
 				69F8DF27266238510053FD1F /* FlexViewSearchTopBar.swift in Sources */,
 				698B039B2651015300FEDB3B /* UITextView+Defaults.swift in Sources */,
 				698B0405265D251800FEDB3B /* UIViewExtensions.swift in Sources */,
+				69F8DFFA2668CE4A0053FD1F /* FlexViewFooterBuilder.swift in Sources */,
 				693AB9E42642CF2500F8CF68 /* FlexPrimaryLabel.swift in Sources */,
 				693AB9E62642CF2500F8CF68 /* FlexHeaderView.swift in Sources */,
 				698B039626501C3E00FEDB3B /* FlexTextView.swift in Sources */,
 				698B038F264FAF9D00FEDB3B /* CGRectHelper.swift in Sources */,
+				69F8DFF62668C4080053FD1F /* FlexViewHeaderBuilder.swift in Sources */,
 				698B0402265D24DE00FEDB3B /* CommonFlexView.swift in Sources */,
 				698B03D826567A1900FEDB3B /* StyleEnvironment.swift in Sources */,
 				693AB9E22642CF2500F8CF68 /* FlexView.swift in Sources */,
@@ -615,8 +635,10 @@
 				69F8DFD026679BFC0053FD1F /* FlexViewFactory.swift in Sources */,
 				69F8DFCC26679BFC0053FD1F /* CommonFlexView.swift in Sources */,
 				69F8DFE626679C730053FD1F /* FlexFooterView.swift in Sources */,
+				69F8DFF72668C4080053FD1F /* FlexViewHeaderBuilder.swift in Sources */,
 				69F8DFE326679C730053FD1F /* UITextView+Alignment.swift in Sources */,
 				69F8DFE426679C730053FD1F /* FlexHeaderView.swift in Sources */,
+				69F8DFFB2668CE4A0053FD1F /* FlexViewFooterBuilder.swift in Sources */,
 				69F8DFDC26679C730053FD1F /* FlexViewTopBar.swift in Sources */,
 				69F8DFCB26679BFC0053FD1F /* CommonIconViewMenu.swift in Sources */,
 				69F8DFDD26679C730053FD1F /* StyleEnvironment.swift in Sources */,
@@ -637,6 +659,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F8DFF82668C4080053FD1F /* FlexViewHeaderBuilder.swift in Sources */,
 				69F8DFD426679BFC0053FD1F /* CommonFlexView.swift in Sources */,
 				69F8DFEB26679C740053FD1F /* StyleEnvironment.swift in Sources */,
 				69F8DFD126679BFC0053FD1F /* FlexViewSupplementaryView.swift in Sources */,
@@ -654,6 +677,7 @@
 				69F8DFD826679BFC0053FD1F /* FlexViewFactory.swift in Sources */,
 				69F8DFD626679BFC0053FD1F /* FlexTextView.swift in Sources */,
 				69F8DFED26679C740053FD1F /* UIViewExtensions.swift in Sources */,
+				69F8DFFC2668CE4A0053FD1F /* FlexViewFooterBuilder.swift in Sources */,
 				69F8DFEA26679C740053FD1F /* FlexViewTopBar.swift in Sources */,
 				69F8DFE926679C730053FD1F /* FlexViewMenu.swift in Sources */,
 				69F8DFE826679C730053FD1F /* FlexSecondaryLabel.swift in Sources */,
@@ -834,7 +858,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.10;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViews;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -864,7 +888,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.10;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexViews;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
