@@ -17,24 +17,24 @@ public class FlexViewHeaderBuilder<T: FlexView> {
         self.flexViewBuilder = flexViewBuilder
     }
     
-    func using(style: FlexShapeStyle, andStyleColor styleColor: UIColor) -> FlexViewHeaderBuilder<T> {
+    public func using(style: FlexShapeStyle, andStyleColor styleColor: UIColor) -> FlexViewHeaderBuilder<T> {
         flexView.header.style = style
         flexView.header.styleColor = styleColor
         return self
     }
 
-    func createHeader(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewHeaderBuilder<T> {
+    public func createHeader(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewHeaderBuilder<T> {
         flexView.headerSize = size
         flexView.headerText = text
         flexView.header.caption.labelTextAlignment = alignment
         return self
     }
 
-    func and() -> FlexViewBuilder<T> {
+    public func and() -> FlexViewBuilder<T> {
         return flexViewBuilder
     }
     
-    func build() -> T {
+    public func build() -> T {
         return flexViewBuilder.build()
     }
 }

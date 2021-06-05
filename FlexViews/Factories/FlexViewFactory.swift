@@ -9,7 +9,7 @@ import Foundation
 import FlexControls
 
 public class FlexViewFactory<T: FlexView> {
-    static func flexView(withFrame frame: CGRect) -> FlexViewBuilder<T> {
+    public static func flexView(withFrame frame: CGRect) -> FlexViewBuilder<T> {
         let builder = FlexViewBuilder<T>()
         return builder.createFlexView(withFrame: frame)
     }

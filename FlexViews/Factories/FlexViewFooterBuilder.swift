@@ -17,24 +17,24 @@ public class FlexViewFooterBuilder<T: FlexView> {
         self.flexViewBuilder = flexViewBuilder
     }
     
-    func using(style: FlexShapeStyle, andStyleColor styleColor: UIColor) -> FlexViewFooterBuilder<T> {
+    public func using(style: FlexShapeStyle, andStyleColor styleColor: UIColor) -> FlexViewFooterBuilder<T> {
         flexView.footer.style = style
         flexView.footer.styleColor = styleColor
         return self
     }
 
-    func createFooter(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewFooterBuilder<T> {
+    public func createFooter(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewFooterBuilder<T> {
         flexView.footerSize = size
         flexView.footerText = text
         flexView.footer.caption.labelTextAlignment = alignment
         return self
     }
 
-    func and() -> FlexViewBuilder<T> {
+    public func and() -> FlexViewBuilder<T> {
         return flexViewBuilder
     }
 
-    func build() -> T {
+    public func build() -> T {
         return flexViewBuilder.build()
     }
 }
