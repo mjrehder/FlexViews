@@ -23,11 +23,15 @@ public class FlexViewFooterBuilder<T: FlexView> {
         return self
     }
 
-    public func createFooter(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewFooterBuilder<T> {
+    public func caption(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewFooterBuilder<T> {
         flexView.footerSize = size
         flexView.footerText = text
         flexView.footer.caption.labelTextAlignment = alignment
         return self
+    }
+
+    public func caption(withCenteredText text: String, size: CGFloat) -> FlexViewFooterBuilder<T> {
+        return caption(withText: text, size: size, alignment: .center)
     }
 
     public func and() -> FlexViewBuilder<T> {

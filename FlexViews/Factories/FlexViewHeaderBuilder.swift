@@ -23,11 +23,15 @@ public class FlexViewHeaderBuilder<T: FlexView> {
         return self
     }
 
-    public func createHeader(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewHeaderBuilder<T> {
+    public func caption(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewHeaderBuilder<T> {
         flexView.headerSize = size
         flexView.headerText = text
         flexView.header.caption.labelTextAlignment = alignment
         return self
+    }
+
+    public func caption(withCenteredText text: String, size: CGFloat) -> FlexViewHeaderBuilder<T> {
+        return caption(withText: text, size: size, alignment: .center)
     }
 
     public func and() -> FlexViewBuilder<T> {

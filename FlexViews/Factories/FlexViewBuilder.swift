@@ -22,14 +22,12 @@ public class FlexViewBuilder<T: FlexView> {
         return self
     }
 
-    public func addHeader(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewHeaderBuilder<T> {
-        let headerBuilder = FlexViewHeaderBuilder<T>(flexViewBuilder: self, flexView: flexView)
-        return headerBuilder.createHeader(withText: text, size: size, alignment: alignment)
+    public func addHeader() -> FlexViewHeaderBuilder<T> {
+        return FlexViewHeaderBuilder<T>(flexViewBuilder: self, flexView: flexView)
     }
     
-    public func addFooter(withText text: String, size: CGFloat, alignment: NSTextAlignment) -> FlexViewFooterBuilder<T> {
-        let footerBuilder = FlexViewFooterBuilder<T>(flexViewBuilder: self, flexView: flexView)
-        return footerBuilder.createFooter(withText: text, size: size, alignment: alignment)
+    public func addFooter() -> FlexViewFooterBuilder<T> {
+        return FlexViewFooterBuilder<T>(flexViewBuilder: self, flexView: flexView)
     }
     
     public func build() -> T {

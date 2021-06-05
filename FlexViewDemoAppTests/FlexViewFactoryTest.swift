@@ -52,7 +52,8 @@ class FlexViewFactoryTest: XCTestCase {
         // When
         let flexView = FlexViewFactory.flexView(withFrame: frame) //
             .using(style: style, andStyleColor: styleColor) //
-            .addHeader(withText: headerText, size: headerSize, alignment: headerTextAlignment) //
+            .addHeader() //
+            .caption(withText: headerText, size: headerSize, alignment: headerTextAlignment) //
             .using(style: headerStyle, andStyleColor: headerStyleColor) //
             .build()
         
@@ -78,7 +79,8 @@ class FlexViewFactoryTest: XCTestCase {
         // When
         let flexView = FlexViewFactory.flexView(withFrame: frame) //
             .using(style: style, andStyleColor: styleColor) //
-            .addFooter(withText: footerText, size: footerSize, alignment: footerTextAlignment) //
+            .addFooter() //
+            .caption(withText: footerText, size: footerSize, alignment: footerTextAlignment) //
             .using(style: footerStyle, andStyleColor: footerStyleColor) //
             .build()
         
@@ -99,7 +101,6 @@ class FlexViewFactoryTest: XCTestCase {
         let headerStyleColor = UIColor.gray
         let headerSize: CGFloat = 36
         let headerText = "Test Header Text"
-        let headerTextAlignment: NSTextAlignment = .center
         
         let footerStyle = FlexShapeStyle(style: .thumb)
         let footerStyleColor = UIColor.lightText
@@ -110,10 +111,12 @@ class FlexViewFactoryTest: XCTestCase {
         // When
         let flexView = FlexViewFactory.flexView(withFrame: frame) //
             .using(style: style, andStyleColor: styleColor) //
-            .addHeader(withText: headerText, size: headerSize, alignment: headerTextAlignment) //
+            .addHeader() //
+            .caption(withCenteredText: headerText, size: headerSize) //
             .using(style: headerStyle, andStyleColor: headerStyleColor) //
             .and() //
-            .addFooter(withText: footerText, size: footerSize, alignment: footerTextAlignment) //
+            .addFooter() //
+            .caption(withText: footerText, size: footerSize, alignment: footerTextAlignment) //
             .using(style: footerStyle, andStyleColor: footerStyleColor) //
             .build()
         
@@ -121,7 +124,7 @@ class FlexViewFactoryTest: XCTestCase {
         XCTAssert(flexView.headerSize == headerSize)
         XCTAssert(flexView.header.styleColor == headerStyleColor)
         XCTAssert(flexView.headerText == headerText)
-        XCTAssert(flexView.header.caption.labelTextAlignment == headerTextAlignment)
+        XCTAssert(flexView.header.caption.labelTextAlignment == .center)
 
         XCTAssert(flexView.footerSize == footerSize)
         XCTAssert(flexView.footer.styleColor == footerStyleColor)
